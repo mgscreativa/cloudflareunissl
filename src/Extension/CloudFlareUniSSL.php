@@ -35,7 +35,7 @@ class CloudFlareUniSSL extends CMSPlugin implements SubscriberInterface
     public static function getSubscribedEvents(): array
     {
         return [
-            'onAfterInitialise' => ['onAfterInitialise', Priority::HIGH],
+            'onAfterInitialise' => ['onAfterInitialise', Priority::MAX],
         ];
     }
 
