@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>System - Cloudflare Universal SSL</name>
+    <author>MGS Creativa</author>
+	<creationDate>2025-11-20</creationDate>
+    <copyright>This plugin is released under the GNU/GPL License version 2</copyright>
+	<license>GNU General Public License, version 3 (http://www.gnu.org/licenses/gpl-3.0.html)</license>
+    <authorEmail>martin@mgscreativa.com</authorEmail>
+    <authorUrl>https://www.mgscreativa.com</authorUrl>
+	<version>2.0.0</version>
+	<description>Plugin for Joomla! to work with Cloudflare's Universal SSL.</description>
+    <namespace path="src">Joomla\Plugin\System\CloudFlareUniSSL</namespace>
+    <files>
+        <folder plugin="cloudflareunissl">services</folder>
+        <folder>src</folder>
+    </files>
+    <updateservers>
+		<server type="extension" priority="1" name="Cloudflare Universal SSL Updates">https://www.mgscreativa.com/updates/cloudflare.xml</server>
+    </updateservers>
+</extension>
