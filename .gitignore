@@ -1,0 +1,12 @@
+**/com_akeeba/backup/
+\cache/
+\administrator/cache/
+\administrator/logs/
+\tmp/
+\logs/
+\.idea/
+\media/plg_jchoptimize/cache/
+\.FiLesVm/
+\plugins/system/ping/reports/
+\vmfiles/
+\shaper_helix3/
