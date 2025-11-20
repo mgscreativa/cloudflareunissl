@@ -1,4 +1,5 @@
 # CloudFlare Universal SSL for Joomla! 4+
+![Static Badge](https://img.shields.io/badge/Joomla-4.x,_5.x,_6.x_compatible-blue?logo=joomla)
 
 **CloudFlare Universal SSL for Joomla!** is a simple Joomla system plugin that helps
 your site fully leverage Cloudflare's free SSL (Universal SSL) under the
